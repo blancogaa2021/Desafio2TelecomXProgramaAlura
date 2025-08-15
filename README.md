@@ -1,7 +1,7 @@
 # Proyecto: Análisis de Evasión de Clientes (Churn) - Telecom X
 
 ## 📄 Descripción
-Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre un conjunto de datos de la empresa ficticia "Telecom X". El objetivo es identificar los factores clave que contribuyen a la evasión de clientes y proponer estrategias de retención. El notebook demuestra un proceso completo de ETL, incluyendo el aplanamiento de datos JSON anidados.
+Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre un conjunto de datos de la empresa ficticia "Telecom X". El objetivo es identificar los factores clave que contribuyen a la evasión de clientes y proponer estrategias de retención. El notebook demuestra un proceso completo de ETL, incluyendo el aplanamiento de datos JSON anidados. Este proyecto es parte de la formación de Alura LATAM y ONE Oracle Next Education en el plan de estudios ONE | TECH FOUNDATION - Especialización Data Science.
 
 ## 🚀 Instalación y Dependencias
 Para ejecutar este proyecto, necesitas Python 3.x y las siguientes librerías:
