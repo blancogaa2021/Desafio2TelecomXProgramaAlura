@@ -12,7 +12,7 @@ pandas numpy matplotlib seaborn json
 ## 📂 Estructura del Proyecto
 * `TelecomX_Data.json`: El archivo JSON anidado que contiene los datos de los clientes.
 * `TelecomX_LATAM_GB.ipynb`: El Jupyter Notebook que contiene todo el código con el análisis
-*  `Informefinal.md`: El informe final con ssus recomendaciones es un archivo MD.
+*  `Informefinal.md`: El informe final con sus recomendaciones es un archivo MD.
 
 ## 💻 Cómo Ejecutar el Proyecto
 1.  Asegúrate de tener todas las dependencias instaladas.
