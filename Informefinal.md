@@ -5,7 +5,7 @@
 # **Informe Final: Análisis de Evasión de Clientes (Churn) - Telecom X**
 
 ## 🔹 **Introducción**
-El presente análisis aborda el problema crítico de la evasión de clientes (Churn) en la empresa Telecom X, que actualmente se sitúa en un **74.3%**. El objetivo principal es identificar los factores demográficos, de servicio y contractuales que influyen en la decisión de un cliente de cancelar su contrato. Comprender estos patrones es el primer paso para desarrollar estrategias de retención efectivas, reducir la pérdida de ingresos y mejorar la satisfacción del cliente.
+El presente análisis aborda el problema crítico de la evasión de clientes (Churn) en la empresa Telecom X, que actualmente se sitúa en un **25.7%**. El objetivo principal es identificar los factores demográficos, de servicio y contractuales que influyen en la decisión de un cliente de cancelar su contrato. Comprender estos patrones es el primer paso para desarrollar estrategias de retención efectivas, reducir la pérdida de ingresos y mejorar la satisfacción del cliente.
 
 <img width="708" height="553" alt="image" src="https://github.com/user-attachments/assets/c90a91ca-5f48-4a49-a6a9-45de7a36213f" />
 
