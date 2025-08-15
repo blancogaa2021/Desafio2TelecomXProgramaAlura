@@ -39,13 +39,64 @@ El análisis reveló perfiles de clientes y características de servicio fuertem
 
 ## 🔹 **Conclusiones e Insights Clave**
 
-* **El Contrato es el Factor Determinante:** El tipo de contrato **"mes a mes"** es el indicador con la correlación positiva más fuerte (+0.41) con la evasión. La falta de un compromiso a largo plazo facilita la salida del cliente ante cualquier inconveniente o mejor oferta de la competencia.
+***
 
-* **La Experiencia Inicial es Crítica:** La tasa de evasión es masiva en los primeros meses. Esto sugiere problemas en el proceso de **onboarding**, en la configuración de expectativas o en la primera experiencia con la calidad del servicio.
+## **Análisis de Correlación: Factores de Evasión de Clientes**
 
-* **El Precio y la Conveniencia son Relevantes:** Clientes con **cargos mensuales elevados** (especialmente entre $70 y $100) y aquellos que utilizan **métodos de pago manuales** (cheque electrónico, correlación de +0.30) son significativamente más propensos a cancelar. La combinación de un servicio premium (Fibra Óptica) con un método de pago de alta fricción parece ser una receta para el churn.
+La tabla de correlación nos permite cuantificar la relación lineal entre cada característica del cliente y su probabilidad de cancelar el servicio (`Evasion`). Un valor positivo indica que la variable aumenta el riesgo de evasión, mientras que un valor negativo indica que lo reduce, fomentando la lealtad.
 
-* **Los Servicios de Soporte Generan Retención:** Variables como **`Seguridad_Online`** y **`Soporte_Tecnico`** mostraron una correlación negativa con la evasión. Esto indica que los clientes que contratan estos servicios de valor añadido se sienten más seguros y respaldados, lo que aumenta su lealtad.
+---
+
+## **🔴 Factores Clave que Aumentan la Evasión (Correlación Positiva)**
+Estas son las señales de alerta más importantes. Los clientes con estas características son los más propensos a cancelar el servicio.
+
+* **Servicio de Internet - Fibra Óptica (+0.30):**
+    Aunque es un servicio premium, su alta asociación con el churn sugiere que puede haber problemas relacionados con el **precio**, la **percepción de valor**, o la **estabilidad del servicio** que generan insatisfacción.
+
+* **Método de Pago - Cheque Electrónico (+0.29):**
+    Este método no es automático y requiere una acción manual del cliente cada mes. Esto crea un **"punto de decisión" mensual** para reevaluar el gasto, facilitando la cancelación.
+
+* **Cargo Mensual (+0.19):**
+    Una relación directa y esperada. A **mayor sea la factura mensual**, mayor es la probabilidad de que un cliente busque alternativas más económicas o decida que el servicio ya no justifica el costo.
+
+* **Facturación Digital (+0.19):**
+    Esta correlación sugiere que el perfil de cliente que elige este método (posiblemente más digital y propenso a comparar ofertas en línea) **coincide con el perfil que es más propenso a cambiarse de proveedor**.
+
+* **Ser Adulto Mayor (+0.15):**
+    Los clientes mayores de 65 años tienen una ligera tendencia a cancelar más, posiblemente por una mayor **sensibilidad al precio** o a una menor necesidad de servicios complejos.
+
+---
+
+## **🟢 Factores Clave que Reducen la Evasión (Correlación Negativa)**
+Estos son los pilares de la retención. Los clientes que presentan estas características son los más leales y valiosos para la empresa.
+
+* **Meses de Contrato (Tenure) (-0.34):**
+    Este es el **indicador de lealtad más fuerte**. Cuanto más tiempo un cliente ha estado con la empresa, es mucho menos probable que se vaya. La confianza y la inercia se construyen con el tiempo.
+
+* **Contrato a Dos Años (-0.30):**
+    Un compromiso a largo plazo es una barrera de salida muy efectiva. Los clientes con contratos de dos años tienen la tasa de churn más baja, ya que están "atados" al servicio.
+
+* **No Tener Servicio de Internet (-0.22):**
+    Un insight muy relevante. Los clientes que **solo tienen servicio telefónico son extremadamente leales**. Probablemente representan un segmento demográfico con necesidades más simples y menos expuesto a la competencia del mercado de internet.
+
+* **Cargo Total (-0.19):**
+    Un `Cargo_Total` alto implica que el cliente ha estado pagando durante muchos meses (alta correlación con `Meses_Contrato`). Por lo tanto, es un indicador de la **inversión a largo plazo** y la lealtad del cliente.
+
+* **Contratación de Servicios de Soporte Adicionales:**
+    Variables como **`Seguridad_Online_Yes` (-0.17)** y **`Soporte_Tecnico_Yes` (-0.16)** demuestran que los clientes que contratan estos servicios de valor añadido se sienten más protegidos y respaldados, lo que aumenta su dependencia del ecosistema de Telecom X.
+
+---
+
+## **⚪️ Variables de Bajo Impacto**
+
+* **Género (-0.01) y Servicio Telefónico (+0.01):**
+    Estas variables tienen una correlación muy cercana a cero, lo que indica que **no son factores relevantes por sí solos** para predecir si un cliente cancelará o no el servicio.
+
+---
+
+## **📊 Conclusión del Análisis de Correlación**
+
+El cliente ideal de Telecom X es aquel que firma un **contrato a largo plazo**, permanece en la compañía por varios años y contrata servicios de soporte adicionales. Por el contrario, el mayor riesgo de evasión proviene de clientes nuevos con **contratos mes a mes**, que pagan facturas mensuales elevadas (especialmente por fibra óptica) y utilizan métodos de pago manuales.
 
 <img width="1402" height="992" alt="image" src="https://github.com/user-attachments/assets/3f53d85e-e61d-43f7-b792-bda9022817eb" />
 
