@@ -7,6 +7,9 @@
 ## 🔹 **Introducción**
 El presente análisis aborda el problema crítico de la evasión de clientes (Churn) en la empresa Telecom X, que actualmente se sitúa en un **74.3%**. El objetivo principal es identificar los factores demográficos, de servicio y contractuales que influyen en la decisión de un cliente de cancelar su contrato. Comprender estos patrones es el primer paso para desarrollar estrategias de retención efectivas, reducir la pérdida de ingresos y mejorar la satisfacción del cliente.
 
+<img width="708" height="553" alt="image" src="https://github.com/user-attachments/assets/c90a91ca-5f48-4a49-a6a9-45de7a36213f" />
+
+
 ---
 
 ## 🔹 **Limpieza y Tratamiento de Datos**
@@ -23,7 +26,14 @@ El análisis reveló perfiles de clientes y características de servicio fuertem
 
 * **Perfil del Cliente con Mayor Riesgo de Evasión:** El cliente con mayor probabilidad de cancelar es aquel con un **contrato mes a mes**, que paga con **cheque electrónico** y tiene **pocos meses** en la compañía (la tasa de abandono es más alta en el primer año). Además, estos clientes tienden a pagar **cargos mensuales más altos**, particularmente aquellos con servicio de **Fibra Óptica**.
 
+  <img width="2190" height="690" alt="image" src="https://github.com/user-attachments/assets/a1356da8-748c-423b-9d9d-04822537417c" />
+
+
 * **Perfil del Cliente Leal:** Por el contrario, el cliente más leal es aquel con **contratos a largo plazo (1 o 2 años)**, una **larga permanencia** en la empresa (más de 24 meses) y que utiliza métodos de pago automáticos como transferencias o tarjeta de crédito.
+
+
+<img width="1989" height="590" alt="image" src="https://github.com/user-attachments/assets/2f4c02c4-687a-4542-b233-bd7aefff68e4" />
+
 
 ---
 
@@ -36,6 +46,9 @@ El análisis reveló perfiles de clientes y características de servicio fuertem
 * **El Precio y la Conveniencia son Relevantes:** Clientes con **cargos mensuales elevados** (especialmente entre $70 y $100) y aquellos que utilizan **métodos de pago manuales** (cheque electrónico, correlación de +0.30) son significativamente más propensos a cancelar. La combinación de un servicio premium (Fibra Óptica) con un método de pago de alta fricción parece ser una receta para el churn.
 
 * **Los Servicios de Soporte Generan Retención:** Variables como **`Seguridad_Online`** y **`Soporte_Tecnico`** mostraron una correlación negativa con la evasión. Esto indica que los clientes que contratan estos servicios de valor añadido se sienten más seguros y respaldados, lo que aumenta su lealtad.
+
+<img width="1402" height="992" alt="image" src="https://github.com/user-attachments/assets/3f53d85e-e61d-43f7-b792-bda9022817eb" />
+
 
 ---
 
