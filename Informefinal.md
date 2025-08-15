@@ -5,14 +5,14 @@
 # **Informe Final: Análisis de Evasión de Clientes (Churn) - Telecom X**
 
 ## 🔹 **Introducción**
-El presente análisis aborda el problema crítico de la evasión de clientes (Churn) en la empresa Telecom X, que actualmente se sitúa en un **26.5%**. El objetivo principal es identificar los factores demográficos, de servicio y contractuales que influyen en la decisión de un cliente de cancelar su contrato. Comprender estos patrones es el primer paso para desarrollar estrategias de retención efectivas, reducir la pérdida de ingresos y mejorar la satisfacción del cliente.
+El presente análisis aborda el problema crítico de la evasión de clientes (Churn) en la empresa Telecom X, que actualmente se sitúa en un **74.3%**. El objetivo principal es identificar los factores demográficos, de servicio y contractuales que influyen en la decisión de un cliente de cancelar su contrato. Comprender estos patrones es el primer paso para desarrollar estrategias de retención efectivas, reducir la pérdida de ingresos y mejorar la satisfacción del cliente.
 
 ---
 
 ## 🔹 **Limpieza y Tratamiento de Datos**
 Para asegurar la calidad y fiabilidad del análisis, se realizó un robusto proceso de Extracción, Transformación y Carga (ETL). Los pasos clave fueron:
 
-1.  **Desanidación de Datos:** Se utilizó la función `pandas.json_normalize` para aplanar la estructura anidada del archivo JSON original. Las columnas `customer`, `phone`, `internet` y `account` fueron expandidas, transformando una estructura compleja en una tabla analítica funcional de 7043 filas y 21 columnas.
+1.  **Desanidación de Datos:** Se utilizó la función `pandas.json_normalize` para aplanar la estructura anidada del archivo JSON original. Las columnas `customer`, `phone`, `internet` y `account` fueron expandidas, transformando una estructura compleja en una tabla analítica funcional de 7.267 filas y 21 columnas.
 2.  **Limpieza y Conversión:** Se corrigió el tipo de dato de la columna de cargos totales (`account_Charges_Total`), convirtiéndola de texto a formato numérico y manejando los valores inconsistentes correspondientes a clientes nuevos (con 0 meses de contrato).
 3.  **Estandarización y Formateo:** Se renombraron todas las columnas a un formato claro y en español (ej. `account_tenure` a `Meses_Contrato`). Además, se convirtieron variables binarias (como 'Yes'/'No') a un formato numérico (1/0) para posibilitar el análisis cuantitativo y la modelización.
 
